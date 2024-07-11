@@ -6,7 +6,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+// @ is an alias to /src test
 import HeaderShayna from "@/components/HeaderShayna.vue";
 import FooterShayna from "@/components/FooterShayna.vue";
 
