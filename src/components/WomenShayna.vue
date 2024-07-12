@@ -19,9 +19,14 @@
                     <li class="w-icon active">
                       <a href="#"><i class="icon_bag_alt"></i></a>
                     </li>
-                    <li class="quick-view">
-                      <a href="product.html">+ Quick View</a>
-                    </li>
+                    <!-- <li class="quick-view"> -->
+                    <!-- <a href="product.html">+ Quick View</a> -->
+                    <router-link to="/product"
+                      ><li class="quick-view">
+                        <a href="#">+ Quick View</a>
+                      </li></router-link
+                    >
+                    <!-- </li> -->
                   </ul>
                 </div>
                 <div class="pi-text">
@@ -42,7 +47,11 @@
                     <li class="w-icon active">
                       <a href="#"><i class="icon_bag_alt"></i></a>
                     </li>
-                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <router-link to="/product"
+                      ><li class="quick-view">
+                        <a href="#">+ Quick View</a>
+                      </li></router-link
+                    >
                   </ul>
                 </div>
                 <div class="pi-text">
@@ -60,7 +69,11 @@
                     <li class="w-icon active">
                       <a href="#"><i class="icon_bag_alt"></i></a>
                     </li>
-                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <router-link to="/product"
+                      ><li class="quick-view">
+                        <a href="#">+ Quick View</a>
+                      </li></router-link
+                    >
                   </ul>
                 </div>
                 <div class="pi-text">
@@ -78,7 +91,11 @@
                     <li class="w-icon active">
                       <a href="#"><i class="icon_bag_alt"></i></a>
                     </li>
-                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                    <router-link to="/product"
+                      ><li class="quick-view">
+                        <a href="#">+ Quick View</a>
+                      </li></router-link
+                    >
                     <li class="w-icon">
                       <a href="#"><i class="fa fa-random"></i></a>
                     </li>

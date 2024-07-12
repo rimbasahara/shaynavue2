@@ -1,6 +1,7 @@
 <template>
   <div class="product">
     <HeaderShayna />
+    <p>Halaman Produk</p>
     <FooterShayna />
   </div>
 </template>
